@@ -4,6 +4,13 @@ http://recharts.org/en-US/api
 
 https://github.com/recharts/recharts
 ```js
+import { LineChart, Line } from 'recharts';
+<LineChart width={400} height={400} data={data}>
+  <Line type="monotone" dataKey="uv" stroke="#8884d8" />
+//<CartesianGrid stroke="#ccc" />
+//<XAxis dataKey="name" />
+//<YAxis />
+</LineChart>
 
 ```
 
